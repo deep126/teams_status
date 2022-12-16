@@ -32,10 +32,10 @@ custom_return = {"Green": "YOUR VALUE FOR GREEN",
                 }
 
 # UDPATE with IP of your local broker OR public.
-mqtt_broker = "xxx.xxx.x.xxx" #Avoid using "localhost"
+mqtt_broker = "192.168.40.57" #Avoid using "localhost"
 
 # UPDATE with your filepath to the folder that contains logs.txt! 
-filepath = "C:\\Users\\username\\AppData\\Roaming\\Microsoft\\Teams"
+filepath = "C:\\Users\\C016608\\AppData\\Roaming\\Microsoft\\Teams"
 
 # Topic can be updated to whatever you want just ensure that the device subscribed shares the same topic name.
 topic = "TEAMS_STATUS"
