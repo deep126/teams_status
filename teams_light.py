@@ -62,6 +62,7 @@ elif default_instruction == False:
                         )
 
 # Instatiate the mqtt client library, update the client name to whatever you want..
+client.username_pw_set(username="WorkPC",password="4123899144")
 client = mqtt.Client("WorkPC")
 client.connect(mqtt_broker)
 
